@@ -2,16 +2,9 @@ import React from 'react';
 import { Text, View, FlatList, StyleSheet, Image } from 'react-native';
 
 const students = [
-    { name: 'Student #1', fakultas: 'FIK', imageUrl: 'https://cdn.pixabay.com/photo/2019/09/23/17/29/elephants-4499210_960_720.jpg' },
-    { name: 'Student #2', fakultas: 'FEB', imageUrl: 'https://cdn.pixabay.com/photo/2019/09/23/17/29/elephants-4499210_960_720.jpg' },
-    { name: 'Student #3', fakultas: 'Nursing', imageUrl: 'https://cdn.pixabay.com/photo/2019/09/23/17/29/elephants-4499210_960_720.jpg' },
-    { name: 'Student #4', fakultas: 'Education', imageUrl: 'https://via.placeholder.com/150/92c952' },
-    { name: 'Student #5', fakultas: 'FIK', imageUrl: 'https://via.placeholder.com/150/92c952' },
-    { name: 'Student #6', fakultas: 'Filsafat', imageUrl: 'https://via.placeholder.com/150/92c952' },
-    { name: 'Student #7', fakultas: 'Pertanian', imageUrl: 'https://via.placeholder.com/150/92c952' },
-    { name: 'Student #8', fakultas: 'ASMII', imageUrl: 'https://via.placeholder.com/150/92c952' },
-    { name: 'Student #9', fakultas: 'FIK', imageUrl: 'https://via.placeholder.com/150/92c952' },
-    { name: 'Student #10', fakultas: 'FIK', imageUrl: 'https://via.placeholder.com/150/92c952' }
+    { name: 'flower',  imageUrl: 'https://cdn.theatlantic.com/assets/media/img/mt/2017/10/Pict1_Ursinia_calendulifolia/lead_720_405.jpg?mod=1533691909' },
+    { name: 'tree',  imageUrl: 'https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/08/03091106/Trees-1024x682.jpg' },
+    { name: 'fruit',  imageUrl: 'https://basket.com/wp-content/uploads/2018/07/What-Your-Favorite-Fruit-Says-About-You.jpg' }
 ];
 
 const StudentScreen = () => {
