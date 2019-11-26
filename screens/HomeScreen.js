@@ -39,6 +39,13 @@ const HomeScreen = ({ navigation }) => {
                     title="Dosen/Staff"
                     onPress={() => navigation.navigate('Student')}
                 />
+                <Text>
+
+                </Text>
+                <Button
+                    title="Tes"
+                    onPress={() => navigation.navigate('Friend')}
+                />
             </View>
         </ImageBackground>
     );
