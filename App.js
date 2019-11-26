@@ -17,7 +17,14 @@ const navigator = createStackNavigator({
   {
     initialRouteName: 'Home',
     defaultNavigationOptions: {
-      headerTitle: 'COMPUTER SCIENCE'
+      headerTitle: 'COMPUTER SCIENCE', 
+      headerStyle:{
+        backgroundColor: '#005FAA'
+      },
+      headerTintColor: 'white',
+      headerTitleStyle:{
+        fontWeight: 'bold'
+      }
     }
   });
 

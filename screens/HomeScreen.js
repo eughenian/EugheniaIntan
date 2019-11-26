@@ -47,6 +47,13 @@ const HomeScreen = ({ navigation }) => {
                             title="Dosen/Staff"
                             onPress={() => navigation.navigate('Friend')}
                         />
+                        <Text>
+                            
+                        </Text>
+                        <Button style={{fontSize:18, fontWeight: '600', backgroundColor: '#FFCE00', marginTop:5, textAlign: 'center', borderRadius:80}}
+                            title="Videos"
+                            onPress={() => navigation.navigate('Component')}
+                        />
                     </View>
                 }
                 keyExtractor={item => item.name}
