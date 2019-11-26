@@ -17,7 +17,7 @@ const navigator = createStackNavigator({
   {
     initialRouteName: 'Home',
     defaultNavigationOptions: {
-      headerTitle: 'UNKLAB: Computer Science'
+      headerTitle: 'COMPUTER SCIENCE'
     }
   });
 
