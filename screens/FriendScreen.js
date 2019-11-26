@@ -155,7 +155,7 @@ const styles = StyleSheet.create({
   name:{
     fontSize:12,
     flex:1,
-    color:"#008080",
+    color:"#005FAA",
     fontWeight:'bold'
   },
   position:{
@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius:30,
-    backgroundColor: "#008080",
+    backgroundColor: "#005FAA",
   },
   followButtonText:{
     color: "#FFFFFF",
@@ -215,7 +215,7 @@ const styles = StyleSheet.create({
   },
   btnClose:{
     height:20,
-    backgroundColor:'#20b2aa',
+    backgroundColor:'#FFCE00',
     padding:20,
     justifyContent: 'center',
     alignItems: 'center',
