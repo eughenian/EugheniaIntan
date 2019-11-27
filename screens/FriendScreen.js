@@ -19,7 +19,13 @@ export default class Users extends Component {
       modalVisible:false,
       userSelected:[],
       data: [
-        {id:1,  name: "Andrew Tanny Liem, MT, Ph.D",   position:"Dekan",               image:"http://fik.unklab.ac.id/web/assets/frontend/images/dean.jpg", about:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."},
+        {id:1,  name: "Andrew Tanny Liem, MT, Ph.D",
+        position:"Dekan",
+        image:"http://fik.unklab.ac.id/web/assets/frontend/images/dean.jpg",
+        about:"Jadwal mengajar:",
+        jadwal1:"Senin&Rabu/12.00-12.55p.m/GK1-101/Research Project I",
+        jadwal2:"Senin&Rabu/13.00-14.20p.m/GK1-303/Research Method (TI)",
+      },
         {id:2,  name: "Oktoverano Lengkong, S.Kom, M.Ds",   position:"Wakil Dekan",               image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=FkuJA4sAAAAJ&citpid=1", about:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."},
         {id:3,  name: "Reymon Rotikan, MS",  position:"Kaprodi SI", image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=YaAAcvsAAAAJ&citpid=3", about:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."} ,
         {id:4,  name: "Green Mandias, M.Cs", position:"Kaprodi TI",     image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=GmSQTMYAAAAJ&citpid=1", about:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."} ,
@@ -76,10 +82,18 @@ export default class Users extends Component {
             <View style={styles.popup}>
               <View style={styles.popupContent}>
                 <ScrollView contentContainerStyle={styles.modalInfo}>
+                    <Text/>
                     <Image style={styles.image} source={{uri: this.state.userSelected.image}}/>
+                    <Text/>
                     <Text style={styles.name}>{this.state.userSelected.name}</Text>
                     <Text style={styles.position}>{this.state.userSelected.position}</Text>
+                    <Text/>
                     <Text style={styles.about}>{this.state.userSelected.about}</Text>
+                    <Text style={styles.jadwal}>{this.state.userSelected.jadwal1}</Text>
+                    <Text style={styles.jadwal}>{this.state.userSelected.jadwal2}</Text>
+                    <Text style={styles.jadwal}>{this.state.userSelected.jadwal3}</Text>
+                    <Text style={styles.jadwal}>{this.state.userSelected.jadwal4}</Text>
+                    <Text style={styles.jadwal}>{this.state.userSelected.jadwal5}</Text>
                 </ScrollView>
               </View>
               <View style={styles.popupButtons}>
@@ -164,7 +178,12 @@ const styles = StyleSheet.create({
     color:"#696969"
   },
   about:{
-    marginHorizontal:10
+    marginHorizontal:10,
+    fontSize:12
+  },
+  jadwal:{
+    marginHorizontal:10,
+    fontSize:12
   },
 
   followButton: {
@@ -219,7 +238,7 @@ const styles = StyleSheet.create({
     padding:20,
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: 7,
+    borderRadius: 20,
   },
   modalInfo:{
     alignItems:'center',
