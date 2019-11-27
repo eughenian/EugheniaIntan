@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, Button, ImageBackground, FlatList, StyleSheet, Image } from 'react-native';
+import { Text, View, Button, ImageBackground, FlatList, StyleSheet, Image, TouchableOpacity } from 'react-native';
 
 const homepic = [
     { name: 'Fakultas Ilmu Komputer Universitas Klabat (FIK-Unklab) ini keberadaannya sangat diperlukan oleh masyarakat di Indonesia Timur, mengingat banyaknya pemekaran wilayah di daerah Indonesia Timur menjadi propinsi baru, kabupaten baru atau kotamadya baru. Kondisi ini menyebabkan daerah yang baru mekar wilayahnya ingin segera membangun, baik infrastruktur maupun sumber daya manusianya. Ini adalah peluang. FIK Unklab menyediakan tenaga terampil di bidang komputer untuk ikut berpartispasi membangun daerah Indonesia Timur. Selain itu Indonesia Timur memiliki sumberdaya alam yang melimpah, ini salah adalah potensi yang besar untuk dikembangkan oleh lulusan dari Fakultas Ilmu Komputer Unklab.',  
@@ -43,17 +43,12 @@ const HomeScreen = ({ navigation }) => {
                         <Text>
 
                         </Text>
-                        <Button style={{fontSize:18, fontWeight: '600', backgroundColor: '#FFCE00', marginTop:5, textAlign: 'center', borderRadius:80}}
-                            title="Dosen/Staff"
-                            onPress={() => navigation.navigate('Friend')}
-                        />
+                        <TouchableOpacity style={{ borderRadius:20, marginLeft:105, width: 150,height:30, padding:20, justifyContent:'center', alignItems: 'center', backgroundColor: '#FFCE00'}} onPress={() => navigation.navigate('Friend')}>
+                            <Text style={{ fontSize:18, fontWeight: 'bold', color: '#005FAA'}}>Dosen/Staff</Text>  
+                        </TouchableOpacity>
                         <Text>
                             
                         </Text>
-                        <Button style={{fontSize:18, fontWeight: '600', backgroundColor: '#FFCE00', marginTop:5, textAlign: 'center', borderRadius:80}}
-                            title="Videos"
-                            onPress={() => navigation.navigate('Component')}
-                        />
                     </View>
                 }
                 keyExtractor={item => item.name}
