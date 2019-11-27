@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
     elevation: 12,
 
     marginVertical: 10,
-    marginHorizontal:20,
+    marginHorizontal:10,
     backgroundColor:"white",
     flexBasis: '46%',
     padding: 10,
@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
   },
 
   name:{
-    fontSize:12,
+    fontSize:13,
     flex:1,
     color:"#005FAA",
     fontWeight:'bold'
@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
   },
 
   followButton: {
-    marginLeft: 100,
+    marginLeft: 120,
     marginTop:10,
     height:30,
     width:70,
