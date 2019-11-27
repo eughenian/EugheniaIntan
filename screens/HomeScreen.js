@@ -10,7 +10,15 @@ const styles = StyleSheet.create({
     textStyle: {
         marginVertical: 30, 
         textAlign: 'center'
-    }
+    },
+
+    card:{
+        marginVertical: 10,
+        marginHorizontal:20,
+        backgroundColor: 'rgba(255, 255, 255, 0.2)',
+        padding: 10
+      },
+
 });
 
 const HomeScreen = ({ navigation }) => {
@@ -30,16 +38,19 @@ const HomeScreen = ({ navigation }) => {
                         <Text>
 
                         </Text>
-                        <Text style={{fontSize:18, fontWeight: '600', color: '#FFFFFF', marginTop:5, textAlign: 'center', padding: 10}}>
-                            Fakultas Ilmu Komputer Universitas Klabat (FIK-Unklab) ini keberadaannya sangat diperlukan oleh 
-                            masyarakat di Indonesia Timur, mengingat banyaknya pemekaran wilayah di daerah Indonesia Timur 
-                            menjadi propinsi baru, kabupaten baru atau kotamadya baru. Kondisi ini menyebabkan daerah yang 
-                            baru mekar wilayahnya ingin segera membangun, baik infrastruktur maupun sumber daya manusianya. 
-                            Ini adalah peluang. FIK Unklab menyediakan tenaga terampil di bidang komputer untuk ikut 
-                            berpartispasi membangun daerah Indonesia Timur. Selain itu Indonesia Timur memiliki sumberdaya 
-                            alam yang melimpah, ini salah adalah potensi yang besar untuk dikembangkan oleh lulusan dari 
-                            Fakultas Ilmu Komputer Unklab.
-                        </Text>
+                        <TouchableOpacity style={styles.card}>
+                            <Text style={{fontSize:18, fontWeight: '600', color: '#FFFFFF', marginTop:5, textAlign: 'center', padding: 10}}>
+                                Fakultas Ilmu Komputer Universitas Klabat (FIK-Unklab) ini keberadaannya sangat diperlukan oleh 
+                                masyarakat di Indonesia Timur, mengingat banyaknya pemekaran wilayah di daerah Indonesia Timur 
+                                menjadi propinsi baru, kabupaten baru atau kotamadya baru. Kondisi ini menyebabkan daerah yang 
+                                baru mekar wilayahnya ingin segera membangun, baik infrastruktur maupun sumber daya manusianya. 
+                                Ini adalah peluang. FIK Unklab menyediakan tenaga terampil di bidang komputer untuk ikut 
+                                berpartispasi membangun daerah Indonesia Timur. Selain itu Indonesia Timur memiliki sumberdaya 
+                                alam yang melimpah, ini salah adalah potensi yang besar untuk dikembangkan oleh lulusan dari 
+                                Fakultas Ilmu Komputer Unklab.
+                            </Text>
+                        </TouchableOpacity>
+                        
                         <Text>
 
                         </Text>
