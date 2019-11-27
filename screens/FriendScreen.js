@@ -54,7 +54,7 @@ export default class Users extends Component {
           }}
           renderItem={({item}) => {
           return (
-            <TouchableOpacity style={styles.card} onPress={() => {this.clickEventListener(item)}}>
+            <TouchableOpacity style={styles.card}>
               <Image style={styles.image} source={{uri: item.image}}/>
               <View style={styles.cardContent}>
                 <Text style={styles.name}>{item.name}</Text>
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
   container:{
     flex:1,
     padding: 10,
-    backgroundColor:"#eeeeee"
+    backgroundColor:"#005FAA"
   },
   header:{
     backgroundColor: "#00CED1",
@@ -219,7 +219,7 @@ const styles = StyleSheet.create({
     padding:20,
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: 7
+    borderRadius: 7,
   },
   modalInfo:{
     alignItems:'center',
