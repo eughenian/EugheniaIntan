@@ -22,18 +22,108 @@ export default class Users extends Component {
         {id:1,  name: "Andrew Tanny Liem, MT, Ph.D",
         position:"Dekan",
         image:"http://fik.unklab.ac.id/web/assets/frontend/images/dean.jpg",
-        about:"Jadwal mengajar:",
-        jadwal1:"Senin&Rabu/12.00-12.55p.m/GK1-101/Research Project I",
-        jadwal2:"Senin&Rabu/13.00-14.20p.m/GK1-303/Research Method (TI)",
-      },
-        {id:2,  name: "Oktoverano Lengkong, S.Kom, M.Ds",   position:"Wakil Dekan",               image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=FkuJA4sAAAAJ&citpid=1", about:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."},
-        {id:3,  name: "Reymon Rotikan, MS",  position:"Kaprodi SI", image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=YaAAcvsAAAAJ&citpid=3", about:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."} ,
-        {id:4,  name: "Green Mandias, M.Cs", position:"Kaprodi TI",     image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=GmSQTMYAAAAJ&citpid=1", about:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."} ,
-        {id:5,  name: "Stenly Adam, MSc", position:"Dosen",   image:"https://media.licdn.com/dms/image/C5603AQGAzIONprQa4g/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=77ncqW1plglpC-xKQT_zR_hLeJmkTXCaWrwuJ3xyQak", about:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."} ,
-        {id:6,  name: "Green Sandag, MS",   position:"Dosen", image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=gpTIKhgAAAAJ&citpid=8", about:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."} ,
-        {id:7,  name: "Andria Wahyudi, S.Kom, M.Eng",   position:"Dosen",           image:"https://i1.rgstatic.net/ii/profile.image/280823082307588-1443964848159_Q512/Andria_Wahyudi.jpg", about:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."} ,
-        {id:8,  name: "Ir. Edson Yahuda Putra, M.Kom",   position:"Dosen",           image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=aNv5WhsAAAAJ&citpid=1", about:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."} ,
-       ]
+        about:"Data Dosen",
+        ttl:"TTL: Manila, 16 Maret 1981",
+        nik:"NIK: 11060601155",
+        nidn:"NIDN: 0916038101"
+        },
+        {id:2,  name: "Oktoverano Lengkong, S.Kom, M.Ds", 
+        position:"Wakil Dekan",
+        image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=FkuJA4sAAAAJ&citpid=1",
+        about:"Data Dosen",
+        ttl:"TTL: Jakarta, 12 Oktober 1983",
+        nik:"NIK: 11080101165",
+        nidn:"NIDN: 0912108301"
+        },
+        {id:3,  name: "Reymon Rotikan, MS",  
+        position:"Kaprodi SI", 
+        image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=YaAAcvsAAAAJ&citpid=3", 
+        about:"Data Dosen",
+        ttl:"TTL: Parigi, 19 September 1987",
+        nik:"NIK: 21405081040",
+        nidn:"NIDN: 0919098702"
+        },
+        {id:4,  name: "Green Mandias, M.Cs", 
+        position:"Kaprodi TI",     
+        image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=GmSQTMYAAAAJ&citpid=1", 
+        about:"Data Dosen",
+        ttl:"TTL: Kawangkoan, 14 Februari 1981",
+        nik:"NIK: 11040301144",
+        nidn:"NIDN: 0904028101"
+        },
+        {id:5,  name: "Stenly Adam, MSc", 
+        position:"Dosen",   
+        image:"https://media.licdn.com/dms/image/C5603AQGAzIONprQa4g/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=77ncqW1plglpC-xKQT_zR_hLeJmkTXCaWrwuJ3xyQak", 
+        about:"Data Dosen",
+        ttl:"TTL: Serang, 15 September 1987",
+        nik:"NIK: 11130101188",
+        nidn:"NIDN: 0915098707"
+        },
+        {id:6,  name: "Green Sandag, MS",   
+        position:"Dosen", 
+        image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=gpTIKhgAAAAJ&citpid=8", 
+        about:"Data Dosen",
+        ttl:"TTL: Parigi, 07 Desember 1990",
+        nik:"NIK: 21120810036",
+        nidn:"NIDN: 0907129001"
+        },
+        {id:7,  name: "Andria Wahyudi, S.Kom, M.Eng",   
+        position:"Dosen",           
+        image:"https://i1.rgstatic.net/ii/profile.image/280823082307588-1443964848159_Q512/Andria_Wahyudi.jpg", 
+        about:"Data Dosen",
+        ttl:"TTL: Manado, 16 Agustus 1989",
+        nik:"NIK: 21140805041",
+        nidn:"NIDN: 0916088901"
+        },
+        {id:8,  name: "Ir. Edson Yahuda Putra, M.Kom",   
+        position:"Dosen",           
+        image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=aNv5WhsAAAAJ&citpid=1", 
+        about:"Data Dosen",
+        ttl:"TTL: Madiun, 11 Oktober 1969",
+        nik:"NIK: 196910112005011002",
+        nidn:"NIDN: 0011106901"
+        },
+        {id:9,  name: "Jacquline Waworundeng, MT",   
+        position:"Dosen",           
+        image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=aNv5WhsAAAAJ&citpid=1", 
+        about:"Data Dosen",
+        ttl:"TTL: Remboken, 04 November 1983",
+        nik:"NIK: 11110101182",
+        nidn:"NIDN: 0904118303"
+        },
+        {id:10,  name: "Jimmy Herawan Moedjahedy, S.Kom, MM",   
+        position:"Dosen",           
+        image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=aNv5WhsAAAAJ&citpid=1", 
+        about:"Data Dosen",
+        ttl:"TTL: Jayapura, 23 Desember 1986",
+        nik:"NIK: 12090814144",
+        nidn:"NIDN: 0923128602"
+        },
+        {id:11,  name: "Lidya Chitra Laoh, S.Kom., M.Si",   
+        position:"Dosen",           
+        image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=aNv5WhsAAAAJ&citpid=1", 
+        about:"Data Dosen",
+        ttl:"TTL: Manado, 29 Maret 1980",
+        nik:"NIK: 11020122134",
+        nidn:"NIDN: 0929038001"
+        },
+        {id:12,  name: "Reynoldus Andrias Sahulata, MM",   
+        position:"Dosen",           
+        image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=aNv5WhsAAAAJ&citpid=1", 
+        about:"Data Dosen",
+        ttl:"TTL: Makasar, 11 Oktober 1966",
+        nik:"NIK: 111108001183",
+        nidn:"NIDN: 0311106605"
+        },
+        {id:13,  name: "Joe Yuan Mambu, BSIT., MCIS",   
+        position:"Dosen",           
+        image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=aNv5WhsAAAAJ&citpid=1", 
+        about:"Data Dosen",
+        ttl:"TTL: Jakarta, 27 Juli 1983",
+        nik:"NIK: 2112010131",
+        nidn:"NIDN: 0927078306"
+        }
+      ]
     };
   }
 
@@ -89,11 +179,9 @@ export default class Users extends Component {
                     <Text style={styles.position}>{this.state.userSelected.position}</Text>
                     <Text/>
                     <Text style={styles.about}>{this.state.userSelected.about}</Text>
-                    <Text style={styles.jadwal}>{this.state.userSelected.jadwal1}</Text>
-                    <Text style={styles.jadwal}>{this.state.userSelected.jadwal2}</Text>
-                    <Text style={styles.jadwal}>{this.state.userSelected.jadwal3}</Text>
-                    <Text style={styles.jadwal}>{this.state.userSelected.jadwal4}</Text>
-                    <Text style={styles.jadwal}>{this.state.userSelected.jadwal5}</Text>
+                    <Text style={styles.jadwal}>{this.state.userSelected.ttl}</Text>
+                    <Text style={styles.jadwal}>{this.state.userSelected.nik}</Text>
+                    <Text style={styles.jadwal}>{this.state.userSelected.nidn}</Text>
                 </ScrollView>
               </View>
               <View style={styles.popupButtons}>
