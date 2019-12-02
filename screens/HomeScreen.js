@@ -54,14 +54,16 @@ const HomeScreen = ({ navigation }) => {
                         <Text>
 
                         </Text>
-                        <TouchableOpacity style={{ borderRadius:20, marginLeft:105, width: 150,height:30, padding:20, justifyContent:'center', alignItems: 'center', backgroundColor: '#FFCE00'}} onPress={() => navigation.navigate('Friend')}>
+                        <TouchableOpacity style={{ borderRadius:20, marginLeft:110, width: 150,height:30, padding:20, justifyContent:'center', alignItems: 'center', backgroundColor: '#FFCE00'}} onPress={() => navigation.navigate('Friend')}>
                             <Text style={{ fontSize:18, fontWeight: 'bold', color: '#005FAA'}}>Dosen/Staff</Text>  
                         </TouchableOpacity>
-
                         <Text>
 
                         </Text>
-                        <Text style={{fontSize:18, fontWeight: '600', color: '#FFCE00', marginTop:5, textAlign: 'center'}}>
+                        <Text>
+
+                        </Text>
+                        <Text style={{fontSize:15, fontWeight: '600', color: '#FFCE00', marginTop:5, textAlign: 'center'}}>
                             Najoan, Eughenia | Salim, Intan
                         </Text>
                     </View>
