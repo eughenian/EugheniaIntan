@@ -66,6 +66,9 @@ const HomeScreen = ({ navigation }) => {
                         <Text style={{fontSize:15, fontWeight: '600', color: '#FFCE00', marginTop:5, textAlign: 'center'}}>
                             Najoan, Eughenia | Salim, Intan
                         </Text>
+                        <Text style={{fontSize:10, fontWeight: '600', color: '#FFCE00', marginTop:2, textAlign: 'center'}}>
+                            Multiplatform Programming
+                        </Text>
                     </View>
                 }
                 keyExtractor={item => item.name}
