@@ -255,7 +255,7 @@ const styles = StyleSheet.create({
   },
 
   name:{
-    fontSize:13,
+    fontSize:12,
     flex:1,
     color:"#005FAA",
     fontWeight:'bold'
