@@ -54,7 +54,7 @@ const HomeScreen = ({ navigation }) => {
                         <Text>
 
                         </Text>
-                        <TouchableOpacity style={{ borderRadius:20, marginLeft:108, width: 150,height:30, padding:20, justifyContent:'center', alignItems: 'center', backgroundColor: '#FFCE00'}} onPress={() => navigation.navigate('Friend')}>
+                        <TouchableOpacity style={{ borderRadius:20, marginLeft:106, width: 150,height:30, padding:20, justifyContent:'center', alignItems: 'center', backgroundColor: '#FFCE00'}} onPress={() => navigation.navigate('Friend')}>
                             <Text style={{ fontSize:18, fontWeight: 'bold', color: '#005FAA'}}>Dosen/Staff</Text>  
                         </TouchableOpacity>
                         <Text>
