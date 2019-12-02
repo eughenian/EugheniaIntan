@@ -58,7 +58,7 @@ const HomeScreen = ({ navigation }) => {
                             <Text style={{ fontSize:18, fontWeight: 'bold', color: '#005FAA'}}>Dosen/Staff</Text>  
                         </TouchableOpacity>
                     </View>
-                    <View>
+                    <View style={styles.textStyle}>
                         <Text style={{fontSize:18, fontWeight: '600', color: '#FFCE00', marginTop:5, textAlign: 'center'}}>
                             Najoan, Eughenia | Salim, Intan
                         </Text>
