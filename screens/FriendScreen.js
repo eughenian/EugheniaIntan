@@ -37,7 +37,7 @@ export default class Users extends Component {
         },
         {id:3,  name: "Reymon Rotikan, MS",  
         position:"Kaprodi SI", 
-        image:"https://scholar.googleusercontent.com/citations?view_op=view_photo&user=YaAAcvsAAAAJ&citpid=3", 
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR4eg5FFf1rHKLtFmSUwSQqAjmUli97v_Yy4kmmK9xgkLhXq52U", 
         about:"Data Dosen",
         ttl:"TTL: Parigi, 19 September 1987",
         nik:"NIK: 21405081040",
